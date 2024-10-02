@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.258c6c79.css",
+    "main.js": "/static/js/main.18844670.js",
+    "static/js/453.139668a8.chunk.js": "/static/js/453.139668a8.chunk.js",
+    "static/media/Porte.png": "/static/media/Porte.7d24e6567e3754d5b7a3.png",
+    "static/media/interieur-du-dojo.jpg": "/static/media/interieur-du-dojo.cb2457f12cc9bee6252e.jpg",
+    "index.html": "/index.html",
+    "main.258c6c79.css.map": "/static/css/main.258c6c79.css.map",
+    "main.18844670.js.map": "/static/js/main.18844670.js.map",
+    "453.139668a8.chunk.js.map": "/static/js/453.139668a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.258c6c79.css",
+    "static/js/main.18844670.js"
+  ]
+}
