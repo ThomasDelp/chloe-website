@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import "./Navbar.scss"
 
@@ -34,10 +35,10 @@ function Navbar() {
   return (
     <nav id="navbar">
         <ul>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/psychologie">La Psychologie</a></li>
-          <li><a href="/qui-suis-je">Qui Suis-je?</a></li>
-          <li><a href="/contact">Me Contacter</a></li>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/psychologie">La Psychologie</Link></li>
+          <li><Link to="/qui-suis-je">Qui Suis-je?</Link></li>
+          <li><Link to="/contact">Me Contacter</Link></li>
         </ul>
     </nav>
   );

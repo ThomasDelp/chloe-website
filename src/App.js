@@ -5,14 +5,13 @@ import Psychologie from './components/Pages/Psychologie';
 import Quisuisje from './components/Pages/Quisuisje';
 import Contact from './components/Pages/Contact';
 import Navbar from './components/Navigation/Navbar';
+
 import "./App.scss"
-import Mainview from './components/Mainviews/Mainview';
 
 function App() {
 
   return (
-    <Router>
-      <div>
+    <Router basename={process.env.PUBLIC_URL}>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path="/qui-suis-je" element={<Quisuisje />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
     </Router>
   );
 }
