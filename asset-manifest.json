@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/chloe-website/static/css/main.bc954516.css",
-    "main.js": "/chloe-website/static/js/main.fa8c59a3.js",
+    "main.js": "/chloe-website/static/js/main.255120a8.js",
     "static/js/453.139668a8.chunk.js": "/chloe-website/static/js/453.139668a8.chunk.js",
     "static/media/Porte.png": "/chloe-website/static/media/Porte.7d24e6567e3754d5b7a3.png",
     "static/media/interieur-du-dojo.jpg": "/chloe-website/static/media/interieur-du-dojo.cb2457f12cc9bee6252e.jpg",
     "index.html": "/chloe-website/index.html",
     "main.bc954516.css.map": "/chloe-website/static/css/main.bc954516.css.map",
-    "main.fa8c59a3.js.map": "/chloe-website/static/js/main.fa8c59a3.js.map",
+    "main.255120a8.js.map": "/chloe-website/static/js/main.255120a8.js.map",
     "453.139668a8.chunk.js.map": "/chloe-website/static/js/453.139668a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc954516.css",
-    "static/js/main.fa8c59a3.js"
+    "static/js/main.255120a8.js"
   ]
 }
