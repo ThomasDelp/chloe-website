@@ -1,0 +1,65 @@
+@import '/src/styles/settings.scss';
+
+section{
+  padding-top: 3rem;
+}
+
+.section-home{
+  height: 100vh;
+  background: url("../../../public/img/interieur-du-dojo.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.section-home-design-doors{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.section-home-design-door{
+  background-color: brown;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../public/img/Porte.png");
+  background-size: cover;
+}
+
+.door-left{
+  left: 0;
+  transform: translateX(-100%) rotateY(180deg);
+  animation: slide-door-to-left 1s ;
+}
+
+.door-right{
+  right: 0;
+  transform: translateX(100%);
+  animation: slide-door-to-right 1s ;
+}
+
+@keyframes slide-door-to-left {
+  0% {
+    transform: translateX(0px) rotateY(180deg);
+    display: block;
+  }
+
+  100% {
+    transform: translateX(-100%) rotateY(180deg);
+    display: none;
+  }
+}
+
+@keyframes slide-door-to-right {
+  0% {
+    transform: translateX(0px);
+    display: block;
+  }
+
+  100% {
+    transform: translateX(100%);
+    display: none;
+  }
+}

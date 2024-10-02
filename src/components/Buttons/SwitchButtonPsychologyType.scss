@@ -1,0 +1,77 @@
+@import '/src/styles/settings.scss';
+
+.switch-button-psychology-type{
+    display: flex;
+    gap: 10px;
+    border-radius: 5rem;
+    padding: 0.2rem;
+    margin: 0 1rem 0 1rem;
+    transition: 0.25s;
+}
+.switch-button-psychology-type:hover{
+    cursor: pointer;
+}
+
+.switch-button-psychology-select-children-active:hover{
+    background-color: grey;
+}
+
+.switch-button-psychology-select-adults-active:hover{
+    background-color: green;
+}
+
+.switch-button-psychology-type div{
+    border-radius: 4.8rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.switch-button-psychology-select-children{
+    background-color: green;
+}
+
+.switch-button-psychology-select-adults{
+    background-color: grey;
+}    
+
+.switch-button-psychology-select-active{
+    background-color: white;
+    transform: scale(1.3);
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.switch-button-psychology-select-children.switch-button-psychology-select-active{
+    animation: slide-button-to-left 0.5s ;
+}
+
+.switch-button-psychology-select-adults.switch-button-psychology-select-active{
+    animation: slide-button-to-right 0.5s ;
+}
+
+.switch-button-psychology-select-active{
+    background-color: white;
+    transform: scale(1.3);
+    box-shadow: 0px 0px 4px 0px;
+    animation: slide-button-to-right 0.5s ;
+}
+  
+@keyframes slide-button-to-right {
+  0% {
+    transform: translateX(-100%) scale(1);
+    color: transparent;
+  }
+
+  100% {
+    transform: translateX(0px) scale(1.3);
+  }
+}
+
+@keyframes slide-button-to-left {
+    0% {
+      transform: translateX(100%) scale(1);
+      color: transparent;
+    }
+  
+    100% {
+      transform: translateX(0px) scale(1.3);
+    }
+}

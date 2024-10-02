@@ -1,0 +1,38 @@
+@import '/src/styles/settings.scss';
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: bold;
+  transition: 0.5s;
+  background-color:transparent ;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.scrollUp {
+  transform: translateY(-80px);
+}
+
+.isNotTop {
+  background-color:#eddab0 ;
+}
+
+nav ul {
+  display: flex;
+  list-style-type:none;
+  justify-content: space-evenly;
+}
+nav ul a {
+  color: #18183D !important;
+  font-size: 1rem;
+}
+
+nav ul a:hover {
+  color: #5d5d88 !important;
+}
